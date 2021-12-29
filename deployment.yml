@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mohitImage
+spec:
+  selector:
+    matchLabels:
+      app: mohitImage-pod
+  template:
+    metadata:
+      labels:
+        app: mohitImage
+    spec:
+      containers:
+      - name: mohitImage
+        image: <Image>
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 5000

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EMLSfQZwiosyhrZqDEGy5/CJ6M9+EP2WsV1ZowplV2g=",
+  "Source": "cloudnative",
+  "BasePath": "_content/cloudnative",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
